@@ -1,0 +1,126 @@
+/* color: #254173;
+    color: #959ca3;
+    color: #f9f8ff;
+    */
+
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  border-radius: 20px;
+  background-color: #254173;
+  border: 1px solid #959ca321;
+  color: #f9f8ff;
+  font-family: "JetBrains Mono", monospace;
+  margin: 20px;
+}
+.header-left {
+  position: relative;
+  flex: 1;
+  display: flex;
+  width: 25%;
+  padding-left: 20px;
+  align-items: center;
+}
+.header-center {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-right {
+  flex: 1;
+  display: flex;
+}
+.header-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  width: 70px;
+  gap: 10px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  border-radius: 20px;
+  color: #f9f8ff;
+  transition: width 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+.header-button span {
+  display: block;
+  white-space: nowrap;
+  opacity: 0;
+  max-width: 0;
+  overflow: hidden;
+  transition: opacity 0.3s ease-in-out, max-width 0.3s ease-in-out;
+  font-size: 25px;
+}
+.header-button input {
+  opacity: 0;
+  max-width: 0;
+  overflow: hidden;
+  transition: opacity 0.3s ease-in-out, max-width 0.3s ease-in-out;
+  border: none;
+  height: 50%;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.295);
+  font-size: 14px;
+  color: white;
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 600;
+}
+.header-button input::placeholder {
+  font-size: 14px;
+  text-align: center;
+  color: white;
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 600;
+}
+.header-button:hover {
+  color: #f9f8ff;
+  filter: drop-shadow(0 0 20px #00bfff) drop-shadow(0 0 20px #00bfff);
+  width: 180px;
+}
+.header-button:hover span {
+  opacity: 1;
+  max-width: 150px;
+}
+.header-button:hover input {
+  opacity: 1;
+  max-width: 150px;
+  margin-right: 40px;
+}
+.header-button-svg {
+  height: 50%;
+  width: auto;
+  flex-shrink: 0;
+}
+.header-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  width: 70px;
+  background-color: transparent;
+  border: none;
+  border-radius: 20px;
+  color: #f9f8ff;
+}
+.header-logo-svg {
+  position: absolute;
+  height: 30px; /* Defina um tamanho fixo */
+  width: 30px;
+  max-width: 100%;
+  max-height: 100%;
+  flex-shrink: 0;
+  transition: all 0.3s ease-in-out;
+}
+.header-logo-svg:hover {
+  filter: drop-shadow(0 0 20px #00bfff) drop-shadow(0 0 20px #00bfff);
+}
+.flex-1 {
+  flex: 1;
+}

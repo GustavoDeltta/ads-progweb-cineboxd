@@ -1,0 +1,36 @@
+.trailer-button {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: #f9f8ff18;
+  color: #f9f8ff;
+  border: solid 3px #254173;
+  width: 210px;
+  height: 50px;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.trailer-button:hover {
+  background-color: red;
+  color: white;
+}
+.trailer-button:hover p {
+  font-size: 24px;
+  font-weight: 600;
+}
+.trailer-button:hover .youtube-svg {
+  font-size: 24px;
+}
+.trailer-button p {
+  font-size: 20px;
+  font-weight: 200;
+  transition: all 0.3s ease-in-out;
+}
+.youtube-svg {
+  transition: all 0.3s ease-in-out;
+  font-size: 20px;
+}

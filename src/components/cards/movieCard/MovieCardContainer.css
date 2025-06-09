@@ -1,0 +1,30 @@
+.movies-container {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+.movies-container::-webkit-scrollbar {
+  height: 15px;
+}
+
+/* Parte de trás da scrollbar */
+.movies-container::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Barra que você arrasta */
+.movies-container::-webkit-scrollbar-thumb {
+  background-color: #f9f8ff42;
+  border-radius: 20px;
+}
+
+/* Efeito ao passar o mouse */
+.movies-container::-webkit-scrollbar-thumb:hover {
+  background-color: #5fbfe8;
+}

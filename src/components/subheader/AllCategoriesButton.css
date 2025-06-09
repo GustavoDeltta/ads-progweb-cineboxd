@@ -1,0 +1,36 @@
+.allcategories-button{
+    cursor: pointer;
+    color: #f9f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    background-color: #f9f8ff25;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 5px;
+    transition: 0.3s ease-in-out;
+}
+.allcategories-svg{
+    height: 20px;
+    width: auto;
+}
+.dropdown-svg{
+    height: 20px;
+    width: auto;
+    transform: rotate(-90deg);
+    transition: 0.3s ease-in-out;
+}
+.allcategories-button:hover .dropdown-svg{
+    transform: rotate(0deg);
+}
+.allcategories-button:hover{
+    filter: drop-shadow(0 0 10px #00bfff) drop-shadow(0 0 10px #00bfff); 
+}
+.allcategories-button:active{
+    filter: none;
+    background-color: #00bfff;
+}

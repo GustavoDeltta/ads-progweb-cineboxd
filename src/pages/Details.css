@@ -1,0 +1,173 @@
+.header-menu {
+  position: absolute;
+  z-index: 9999;
+  width: 100%;
+}
+.banner-container {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+.banner-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}
+.banner-gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;                                                            
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgb(29, 52, 94) 100%
+  );
+  z-index: 2;
+}
+.center-container{
+  width: 100%;
+  height: 420px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.movie-poster{
+  height: 400px;
+  width: 260px;
+  margin: 20px;
+  border-radius: 20px;
+}
+.movie-infos{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  transform: translateY(-120px);
+  z-index: 999;
+}
+.movie-title{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 600px;
+  color: #f9f8ff;
+  font-size: 40px;
+  font-weight: 800;
+  gap: 10px;
+}
+.movie-title p{
+  display: flex;
+  justify-content: start;
+  align-items: end;
+  color: #f9f8ff9d;
+  font-size: 20px;
+  font-weight: 800;
+}
+.movie-director{
+  display: flex;
+  align-items: end;
+  height: 40px;
+  color: #f9f8ff;
+  font-size: 20px;
+  font-weight: 400;
+}
+.movie-director p{
+  color: #f9f8ff9d;
+  margin-right: 20px;
+  width: 400px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-left: 10px;
+}
+.movie-tagline{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 20px;
+}
+.quote{
+  background-color: #00bfff;
+  height: 100%;
+  width: 2px;
+  border-radius: 2px;
+}
+.movie-tagline p{
+  width: 500px;
+  color: #f9f8ff9d;
+  font-size: 20px;
+  font-weight: 800;
+}
+.movie-overview{
+  margin-top: 10px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    #254173 150%
+  );
+  border-radius: 10px;
+  width: 500px;
+  color: #f9f8ff;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 20px;
+}
+.movie-overview p{
+  display: -webkit-box;
+  -webkit-line-clamp: 10;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.movie-data{
+  position: relative;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translateY(-200px);
+}
+.movie-stats{
+  display: flex;
+  flex-direction: row;
+  color: #f9f8ff;
+  gap: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.stats-svg{
+  color: #00bfff;
+}
+.vote-average{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #254173;
+  font-size: 30px;
+  border-radius: 20px;
+  padding: 5px;
+  color: gold;
+}
+.vote-average p{
+  font-size: 20px;
+  font-weight: 800;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.container-header{
+  display: flex;
+  height: 24px;
+  margin: 20px;
+  font-size: 24px;
+  color: #f9f8ff;
+  font-weight: 600;
+  justify-content: space-between;
+}
