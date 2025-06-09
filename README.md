@@ -1,12 +1,52 @@
-# React + Vite
+# Projeto React - CineBoxd
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📝 Descrição
 
-Currently, two official plugins are available:
+Este projeto foi desenvolvido como atividade avaliativa da disciplina de Programação Web II do curso de Análise e Desenvolvimento de Sistemas. O objetivo principal foi construir uma interface utilizando  React e consumindo uma API de filmes para listar e ver detalhess dos mesmos.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Prévia do layout
 
-## Expanding the ESLint configuration
+<div class="home">
+  <img src="src/assets/home.png" width=750"/>
+</div>
+<div class="details">
+  <img src="src/assets/details.png" width=750"/>
+</div>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Como Executar o Projeto
+
+### Clone o repositório:
+
+```bash
+git clone https://github.com/GustavoDeltta/ads-progweb-layout.git
+```
+
+### Acesse o diretório do projeto:
+
+```bash
+cd ads-progweb-cineboxd
+```
+
+### Instale as dependências:
+
+```bash
+npm install
+```
+
+### Instale as dependências:
+
+```bash
+cp .env.example .env
+# Edite o .env e adicione sua chave de API:
+VITE_TMDB_API_KEY=<sua_chave_tmdb>
+```
+
+### Inicie o servidor de desenvolvimento:
+
+```bash
+npm run dev
+```
+
+### Acesse a aplicação:
+
+-  Abra o navegador e vá até ``http://localhost:5173``para visualizar.
